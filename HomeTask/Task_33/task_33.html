@@ -1,0 +1,90 @@
+<html>
+
+    <head>
+      
+        <meta charset="utf-8">
+        <title>Бюллетень</title> 
+        <link rel="stylesheet" href="task_33.css">
+        
+    </head>
+
+    <style>
+    
+    body {
+        background-image:linear-gradient(to bottom,white 0%, white 33%, blue 33%, blue 67%, red 67%); 
+         } 
+         
+    .space { 
+    padding: 3%;
+    background: #fff;
+    width: 44%;
+    height: 95%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 25%;
+    box-shadow: 0px 1px 3px rgb(0, 0, 0); 
+    border-radius: 42px;
+            }     
+
+    </style>
+
+
+    <body>
+        <h1>Выборы депутатов Государственной Думы Федерального Собрания Российской Федерации восьмого созыва</h1>
+        
+        <div class="space">
+            <p id="title_window">Чтобы проголосовать, выберите одного из кандидатов и укажите свои данные</p>
+            
+            <form>
+                <p id="invite">
+                    Серия паспорта: <input placeholder="4 цифры" type="text" size="10"><br><br>
+                    Номер паспорта: <input placeholder="6 цифр" type="text" size="10"><br><br>
+                    Адрес:  <input placeholder="С точностью до дома" type="text" size="90"><br>
+                
+                </p>
+            
+            
+            <p id="title_window">Кандидаты:</p>
+                <p id="variants">
+                <input type="radio" name="party"> Коммунистическая партия Российской Федерации<Br>
+                <input type="radio" name="party"> «Зелёные»<Br>
+                <input type="radio" name="party"> «ЛДПР»<Br>
+                <input type="radio" name="party"> «Новые люди»<Br>
+                <input type="radio" name="party"> «Единая Россия»<Br>
+                <input type="radio" name="party"> «Справедливая Россия — За правду»<Br>
+                <input type="radio" name="party"> «Яблоко»<Br>   
+                <input type="radio" name="party"> «Партия Роста»<Br> 
+                <input type="radio" name="party"> «Российская партия свободы и справедливости»<Br> 
+                <input type="radio" name="party"> «Коммунисты России»<Br> 
+                <input type="radio" name="party"> «Зелёная альтернатива»<Br> 
+                <input type="radio" name="party"> «Родина»<Br> 
+                <input type="radio" name="party"> «Российская партия пенсионеров за социальную справедливость»<Br> 
+                <input type="radio" name="party"> «Российский общенародный союз»<Br>                    
+                </p>
+            
+                <p id="title_low">Как вы оцениваете работу сервиса?<br><br>
+                <select>
+                    <option value="">
+                    <option value="1" id="title_low">Неудовлетворительно
+                    <option value="2" id="title_low">Посредственно
+                    <option value="3" id="title_low">Нормально
+                    <option value="4" id="title_low">Хорошо
+                    <option value="5" id="title_low">Отлично
+                </select>
+                </p>
+                
+
+                </p>
+            <p id="title_low">Ваши жалобы, заявления, предложения по голосованию в электронной форме<br><br>
+            <textarea placeholder="Ввести текст здесь" name="comment" cols="90" maxlength="150" rows="5" spellcheck="True"></textarea></p>
+
+            <p id="title_low"><input type="checkbox" >Даю согласие на обработку данных<Br>
+            <p id="title_low"><input type="checkbox" >Подтверждаю корректность указанных данных<Br><Br>
+
+            <input type="submit" value="Проголосовать">
+        </form>
+           </div>
+
+    </body>
+
+</html>

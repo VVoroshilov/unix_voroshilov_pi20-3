@@ -1,0 +1,30 @@
+h1 {
+    font-size:200%;
+    color:#000;
+    font-family:600 36px/40px,"Helvetica Neue",Helvetica,sans-serif;
+    text-align: center;
+}
+#title_window {
+    font-size:130%;
+    color:#000;
+    font-family:"Helvetica Neue",Helvetica,sans-serif;
+    text-align: left;
+}
+#title_low {
+    font-size: 100%;
+    color: #000;
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    text-align: left;
+}
+#invite {
+    font-size:100%;
+    color:black;
+    font-family:sans-serif;
+    text-align: left;
+}
+#variants {
+    font-size:115%;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+}
