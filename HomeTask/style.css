@@ -23,6 +23,12 @@ h6 {
     font-size: 125%;
 }
 
+.text{
+    color: darkmagenta;
+    font-family: sans-serif;
+    font-size: 150%;
+}
+
 #l1 {
     color: rebeccapurple;
 }
@@ -61,4 +67,9 @@ h6 {
 
 #l10 {
     color: chocolate;
+}
+.txt {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
 }
