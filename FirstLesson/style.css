@@ -1,0 +1,21 @@
+h1 {
+    color: brown;
+    font-size: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.header {
+    color: rgb(14, 46, 231);
+    font-size: 1000%;
+}
+
+#header1 {
+    border: red;
+    border-style: solid;
+    border-radius: 48px;
+}
